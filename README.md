@@ -56,7 +56,7 @@ Exit the python shell and the container, so the last will be terminated.
 ## Create the real container
 
 ```
-docker run --rm -d -it -v /path/to/the/data:/home/pyuser/data/ -v /path/to/the/secret:/home/pyuser/secret/ -p 8888:8888 --name my-jupyter my-jupyter
+docker run --rm -d -it -v /path/to/the/data:/home/pyuser/data/ -v /path/to/the/secret:/home/pyuser/secret/ -p 8888:8888 --name my-jupyter josethomazini/my-jupyter
 ```
 
 Jupyter Notebook will be listening on:
