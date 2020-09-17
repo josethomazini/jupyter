@@ -49,9 +49,9 @@ And your **secret.ini** file should be like that:
 JUPYTER_HASH=argon2:$argon2id$v=19$m=10240,t=10,p=8$xxFDz55TKfPsfzF6juFXPg\$WHN5ZiUVw7xj2doX9RS/IA
 ```
 
-That file must be out of the container, into the volume folder named **secret**.
+That file must be saved out of the container, into the volume folder named **secret**.
 
-Exit the python shell and the container, and the last will be terminated.
+Exit the python shell and the container, so the last will be terminated.
 
 ## Create the real container
 
