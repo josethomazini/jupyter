@@ -62,3 +62,9 @@ docker run --rm -d -it -v /path/to/the/data:/home/pyuser/data/ -v /path/to/the/s
 Jupyter Notebook will be listening on:
 
 http://localhost:8888/
+
+# Thanks
+
+I would like to thank CodingEntrepreneurs for this amazing video, from which I've borrow many ideas.
+
+https://www.youtube.com/watch?v=GoJ6qR2VMTA
