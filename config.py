@@ -14,3 +14,5 @@ config.NotebookApp.password = str(jupyter_hash)
 
 # Define the location of the notebooks to be saved in the data volume
 config.NotebookApp.notebook_dir = '/home/pyuser/data'
+
+config.NotebookApp.allow_origin = '*'
