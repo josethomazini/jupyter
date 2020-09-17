@@ -30,7 +30,7 @@ Define your password to be hashed:
 python -c 'from notebook.auth import passwd; print(passwd())'
 ```
 
-Let your password being equal to:
+Suppose your password is:
 
 ```
 abc
@@ -51,7 +51,7 @@ JUPYTER_HASH=argon2:$argon2id$v=19$m=10240,t=10,p=8$xxFDz55TKfPsfzF6juFXPg\$WHN5
 
 That file must be saved out of the container, into the volume folder named **secret**.
 
-Exit the python shell and the container, so the last will be terminated.
+Exit the python shell and the container, so the last one will be terminated.
 
 ## Create the real container
 
@@ -65,6 +65,6 @@ http://localhost:8888/
 
 # Thanks
 
-I would like to thank CodingEntrepreneurs for this amazing video, from which I've borrow many ideas.
+I would like to thank CodingEntrepreneurs for this amazing video, from which I've borrowed many ideas.
 
 https://www.youtube.com/watch?v=GoJ6qR2VMTA
